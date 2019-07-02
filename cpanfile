@@ -1,7 +1,7 @@
 requires 'perl', '5.008005';
 
-# requires 'Some::Module', 'VERSION';
+test_requires 'Test::More';
+test_requires 'Test::Map::Tube', '>=0.35';
 
-on test => sub {
-    requires 'Test::More', '0.96';
-};
+requires 'Map::Tube', '>=3.63';
+

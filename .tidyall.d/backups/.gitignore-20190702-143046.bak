@@ -1,9 +1,9 @@
-!META.json
-/.build
-/.prove
-/Build
 /Map-Tube-Bielefeld-*
+/.build
 /_build*
+/Build
 MYMETA.*
+!META.json
+/.prove
 cpanfile.snapshot
 local/*

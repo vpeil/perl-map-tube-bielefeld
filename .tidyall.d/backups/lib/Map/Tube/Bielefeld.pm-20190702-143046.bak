@@ -13,11 +13,7 @@ use File::Share ':all';
 use Moo;
 use namespace::clean;
 
-has xml => (
-    is => 'ro',
-    default =>
-        sub {return dist_file('Map-Tube-Bielefeld', 'bielefeld-map.xml')}
-);
+has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-Bielefeld', 'bielefeld-map.xml') });
 
 with 'Map::Tube';
 
