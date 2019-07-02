@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://de.wikipedia.org/wiki/U-Bahn_Wien -->
+<tube name="Stadtbahn Bielefeld">
+  <lines>
+    <line id="1" name="U-Bahn-Linie 1" color="blue"/>
+    <line id="2" name="U-Bahn-Linie 2" color="green"/>
+    <line id="3" name="U-Bahn-Linie 3" color="yellow"/>
+    <line id="4" name="U-Bahn-Linie 4" color="red"/>
+  </lines>
+  
+  <stations>
+    
+    <!-- Linie 3 -->
+    <station id="3-01" name="Stieghorst" line="3:1" link="3-02"/>
+    <station id="3-02" name="Gesamtschule Stieghorst" line="3:2" link="3-03"/>
+    <station id="3-03" name="Elpke" line="3:3" link="3-04"/>
+    <station id="3-04" name="Roggenkamp" line="3:4" link="3-05"/>
+    <station id="3-05" name="Luther-Kirche" line="3:5" link="3-06"/>
+    <station id="3-06" name="Sieker Mitte" line="3:7" link="3-07"/>
+    <station id="3-07" name="Hartlager Weg" line="3:8" link="3-08"/>
+    <station id="3-08" name="Oststraße" line="3:8" link="3-09"/>
+    <station id="3-09" name="Krankenhaus Mitte" line="3:9" link="3-10"/>
+    <station id="3-10" name="Ravensberge Straße" line="3:10" link="3-11"/>
+    <station id="3-11" name="August-Schröder-Straße" line="3:11" link="3-12"/>
+    <station id="3-12" name="Rathaus" line="3:12" link="3-13"/>
+    <station id="3-13" name="Jahnplatz" line="3:13" link="3-14"/>
+    <station id="3-14" name="Hauptbahnhof" line="3:14" link="3-15"/>
+    <station id="3-15" name="Wittekindstraße" line="3:15" link="3-16"/>
+    <station id="3-16" name="Nordpark" line="3:16" link="3-17"/>
+    <station id="3-17" name="Auf der Hufe" line="3:17" link="3-18"/>
+    <station id="3-18" name="Lange Straße" line="3:16" link="3-19"/>
+    <station id="3-19" name="Koblenzer Straße" line="3:16" link="3-20"/>
+    <station id="3-20" name="Voltmannstraße" line="3:16" link="3-21"/>
+    <station id="3-21" name="Babenhausen Süd" line="3:16"/>
+    
+    <!-- Linie 4 -->
+    <station id="4-01" name="Rathaus" line="U4:1" link="4-02"/>
+    <station id="4-02" name="Jahnplatz" line="U4:2" link="4-03"/>
+    <station id="4-03" name="Hauptbahnhof" line="U4:3" link="4-04"/>
+    <station id="4-04" name="Siegfriedplatz" line="U4:4" link="4-05"/>
+    <station id="4-05" name="Rudolf-Oetker-Halle" line="U4:5" link="4-06"/>
+    <station id="4-06" name="Graf-von-Stauffenberg-Straße" line="U4:6" link="4-07"/>
+    <station id="4-07" name="Bültmannshof" line="U4:7" link="4-08"/>
+    <station id="4-08" name="Universität" line="U4:8" link="4-09"/>
+    <station id="4-09" name="Wellensiek" line="U4:9" link="4-10"/>
+    <station id="4-10" name="Lohmannshof" line="U4:10"/>
+  </stations>
+</tube>
