@@ -9,6 +9,7 @@ Map::Tube::Bielefeld - interface to the Bielefeld Stadtbahn
 =cut
 
 use File::Share ':all';
+use utf8;
 
 use Moo;
 use namespace::clean;
