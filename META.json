@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "interface to the Bielefeld Stadtbahn",
    "author" : [
       "Vitali Peil <vitali.peil@uni-bielefeld.de>"
    ],
@@ -37,17 +37,19 @@
       },
       "runtime" : {
          "requires" : {
+            "Map::Tube" : "3.63",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Test::Map::Tube" : "0.35",
+            "Test::More" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01",
+   "version" : "2019.0718",
    "x_generated_by_perl" : "v5.30.0",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.11",
    "x_static_install" : 1
