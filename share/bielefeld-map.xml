@@ -2,12 +2,12 @@
 <!-- https://de.wikipedia.org/wiki/Stadtbahn_Bielefeld -->
 <tube name="Stadtbahn Bielefeld">
   <lines>
-    <line id="1" name="U-Bahn-Linie 1" color="blue"/>
-    <line id="2" name="U-Bahn-Linie 2" color="green"/>
-    <line id="3" name="U-Bahn-Linie 3" color="yellow"/>
-    <line id="4" name="U-Bahn-Linie 4" color="red"/>
+    <line id="1" name="Linie 1" color="blue"/>
+    <line id="2" name="Linie 2" color="green"/>
+    <line id="3" name="Linie 3" color="yellow"/>
+    <line id="4" name="Linie 4" color="red"/>
   </lines>
-  
+
   <stations>
     <!-- Linie 1 -->
     <station id="1-01" name="Senne" line="1:1" link="1-02"/>
@@ -32,7 +32,7 @@
     <station id="1-20" name="Kattenkamp" line="1:20" link="1-21"/>
     <station id="1-21" name="Heidegärten" line="1:21" link="1-22"/>
     <station id="1-22" name="Schildesche" line="1:22" link="1-21"/>
-    
+
     <!-- Linie 2 -->
     <station id="2-01" name="Sieker" line="2:1" link="2-02"/>
     <station id="2-02" name="Prießallee" line="2:2" link="2-03"/>
@@ -55,7 +55,7 @@
     <station id="2-19" name="Milse" line="2:19" link="2-20"/>
     <station id="2-20" name="Buschbachtal" line="2:20" link="2-21"/>
     <station id="2-21" name="Altenhagen" line="2:21" link="2-20"/>
-        
+
     <!-- Linie 3 -->
     <station id="3-01" name="Stieghorst" line="3:1" link="3-02"/>
     <station id="3-02" name="Gesamtschule Stieghorst" line="3:2" link="3-03"/>
@@ -78,7 +78,7 @@
     <station id="3-19" name="Koblenzer Straße" line="3:19" link="3-20"/>
     <station id="3-20" name="Voltmannstraße" line="3:20" link="3-21"/>
     <station id="3-21" name="Babenhausen Süd" line="3:21" link="3-20"/>
-    
+
     <!-- Linie 4 -->
     <station id="4-01" name="Rathaus" line="4:1" link="4-02,3-12,2-07,1-14"/>
     <station id="4-02" name="Jahnplatz" line="4:2" link="4-03,3-13,2-08,1-15"/>
