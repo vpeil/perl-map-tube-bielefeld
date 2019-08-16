@@ -5,12 +5,12 @@ Map::Tube::Bielefeld - interface to the Bielefeld Stadtbahn
 # DESCRIPTION
 
 It currently provides functionality to find the shortest route between
-the two given stations. The map contains both U-Bahn and S-Bahn stations.
+the two given stations.
 
 # CONSTRUCTOR
 
-    use Map::Tube::Berlin;
-    my $tube = Map::Tube::Berlin->new;
+    use Map::Tube::Bielefeld;
+    my $tube = Map::Tube::Bielefeld->new;
 
 # METHODS
 
