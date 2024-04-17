@@ -90,5 +90,6 @@
     <station id="4-09" name="Universität" line="4:9" link="4-10"/>
     <station id="4-10" name="Wellensiek" line="4:10" link="4-11"/>
     <station id="4-11" name="Lohmannshof" line="4:11" link="4-10"/>
+    <station id="4-12" name="Lohmannshof test" line="4:12" link="4-11"/>
   </stations>
 </tube>
