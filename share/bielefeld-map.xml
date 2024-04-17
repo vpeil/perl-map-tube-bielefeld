@@ -7,7 +7,9 @@
     <line id="3" name="Linie 3" color="yellow"/>
     <line id="4" name="Linie 4" color="red"/>
   </lines>
-
+<!--
+just comment
+-->
   <stations>
     <!-- Linie 1 -->
     <station id="1-01" name="Senne" line="1:1" link="1-02"/>
